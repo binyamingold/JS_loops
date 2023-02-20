@@ -4,9 +4,9 @@
 
 
 var answer = "";
-debugger;
+
 while (answer != "stop") {
-    answer = prompt("Enter STOP to continue").toLocaleLowerCase();
+    answer = prompt("Enter STOP to continue").toLowerCase();
     if (answer === 'stop') {
         alert("Click OK to continue");
     } else {

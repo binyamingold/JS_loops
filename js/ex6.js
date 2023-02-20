@@ -10,7 +10,7 @@ var myNames = [
     'chana'
 ];
 
-var UserGuess = prompt("Please enter a name to search").toLocaleLowerCase(); 
+var UserGuess = prompt("Please enter a name to search").toLowerCase(); 
 
 for (var i=0; i<myNames.length; i++){
     if (UserGuess === myNames[i]){
